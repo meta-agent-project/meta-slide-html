@@ -1,0 +1,4 @@
+interface:
+  display_name: "특강 슬라이드"
+  short_description: "검정펜 디자인과 실시간 리모션으로 만드는 편집 가능한 HTML 특강 자료"
+  default_prompt: "$teukgang-slides 스킬로 제공한 원고를 검정펜 HTML 특강 슬라이드로 만들어줘."

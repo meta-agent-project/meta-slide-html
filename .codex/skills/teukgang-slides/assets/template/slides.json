@@ -1,0 +1,48 @@
+{
+  "title": "특강 슬라이드 예제",
+  "targetSeconds": 300,
+  "slides": [
+    {
+      "key": "intro",
+      "kind": "intro",
+      "title": "강사 이름",
+      "body": "<p>소속 · 직함</p>",
+      "seconds": 20,
+      "notes": "제공받은 정보로 교체하세요."
+    },
+    {
+      "key": "cover",
+      "title": "함께 배우는 오늘의 주제",
+      "chapter": "특강",
+      "body": "<div class=\"ink-cover\"><div><div class=\"hero\">한 가지를<br>명확하게.</div><p class=\"lead\">청중과 목표에 맞는 설명</p></div><img class=\"ink-image\" src=\"{{asset:professor.png}}\" alt=\"검정 펜으로 그린 통통한 교수 햄스터\"></div>",
+      "seconds": 40,
+      "notes": "주제와 수업 목표를 소개합니다."
+    },
+    {
+      "key": "chapter",
+      "kind": "divider",
+      "title": "CONCEPT",
+      "seconds": 6,
+      "notes": "다음 개념으로 전환합니다."
+    },
+    {
+      "key": "flow",
+      "title": "목표에서 시작해, 결과를 확인합니다",
+      "chapter": "01 · 흐름",
+      "seconds": 174,
+      "motion": {
+        "steps": 3,
+        "html": "<div class=\"flow\"><div class=\"step\" data-flow-step=\"0\">목표 정하기</div><span class=\"arrow\" data-flow-step=\"1\">→</span><div class=\"step\" data-flow-step=\"1\">시도하기</div><span class=\"arrow\" data-flow-step=\"2\">→</span><div class=\"step\" data-flow-step=\"2\">결과 확인</div></div><div class=\"band\" data-flow-step=\"2\">결과를 보고, 다음 방법을 정합니다.</div>"
+      },
+      "notes": "이전·다음 버튼 또는 Shift+방향키로 단계를 진행합니다."
+    },
+    {
+      "key": "finish",
+      "title": "오늘의 기준을 한 장에 정리하세요",
+      "chapter": "FINISH",
+      "seconds": 60,
+      "body": "<div class=\"quote\">누구에게, 무엇을, 어떤 기준으로?</div><div class=\"band\">작은 작업부터 적용하고 결과를 확인합니다.</div>",
+      "notes": "전체를 요약하고 다음 행동으로 끝냅니다."
+    }
+  ]
+}
